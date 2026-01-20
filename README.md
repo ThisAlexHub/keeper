@@ -22,3 +22,4 @@ npm run test:debug
 - Add employee (PIM)
 - Logoutg
 
+![Playwright](../../actions/workflows/playwright.yml/badge.svg)
