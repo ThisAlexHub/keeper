@@ -5,7 +5,6 @@ import { TEST_CREDENTIALS } from '../utils/helpers';
  * Smoke: PIM - Add Employee
  * Why critical: Verifies a new employee can be created and Personal Details is shown.
  * 
- *  * Note: No cleanup. This runs against a shared demo environment.
  */
 
 test.describe('Smoke: PIM - Add Employee', () => {
