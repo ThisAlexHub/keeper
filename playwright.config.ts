@@ -9,7 +9,8 @@ export default defineConfig({
   reporter: [
     ['html', { outputFolder: 'playwright-report' }],
     ['list'],
-    ['json', { outputFile: 'test-results.json' }]
+    ['json', { outputFile: 'test-results.json' }],
+    ['allure-playwright']
   ],
   use: {
     baseURL: 'https://opensource-demo.orangehrmlive.com',
