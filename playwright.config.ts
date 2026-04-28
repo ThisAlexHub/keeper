@@ -15,7 +15,7 @@ export default defineConfig({
   use: {
     baseURL: 'https://opensource-demo.orangehrmlive.com',
     trace: 'on-first-retry',
-    screenshot: 'only-on-failure',
+    screenshot: 'on',
     video: 'retain-on-failure',
   },
   expect: {
