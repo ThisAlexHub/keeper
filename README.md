@@ -20,6 +20,21 @@ npm run test:debug
 - Login (happy path and invalid credentials)
 - Sidebar navigation (PIM, Leave, Admin)
 - Add employee (PIM)
-- Logoutg
+- Logout
+
+
+## Project Structure
+
+tests/
+├── fixtures/        # Custom Playwright fixtures
+├── pages/           # Page Object Model
+├── smoke-tests/     # Smoke test specifications
+└── utils/           # Test helpers
+
+.github/
+└── workflows/       # CI pipeline (GitHub Actions)
+
+playwright-report/   # HTML report (generated locally / in CI)
+test-results.json    # Machine-readable test results
 
 ![Playwright](../../actions/workflows/playwright.yml/badge.svg)
